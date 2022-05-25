@@ -49,6 +49,10 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+main {
+  margin: 5%;
+}
+
 /* ======== HEADER ======== */
 
 .banner {
