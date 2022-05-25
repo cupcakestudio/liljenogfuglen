@@ -37,6 +37,11 @@ h4 {
   font-family: "Vidaloka", serif;
 }
 
+p {
+  font-size: 16px;
+  font-family: "EB Garamond", serif;
+}
+
 .menu-font {
   text-transform: uppercase;
   font-weight: 400;
@@ -49,6 +54,8 @@ h4 {
 .banner {
   background: rgba(213, 193, 122, 1);
   padding: 0.5rem 5%;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
