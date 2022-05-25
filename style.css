@@ -56,7 +56,7 @@ main {
 /* ======== HEADER ======== */
 
 .banner {
-  background: rgba(213, 193, 122, 1);
+  background: rgb(213, 193, 122);
   padding: 0.5rem 5%;
   position: sticky;
   top: 0;
@@ -64,6 +64,7 @@ main {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 50;
 }
 
 .logo > a > img {
