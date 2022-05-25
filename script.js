@@ -1,5 +1,4 @@
-// Lav variablen "btn", der henviser til ".toggle-btn"
-// Lav variablen "menu", der henviser til ".main-menu"
+//Load window
 
 const btn = document.querySelector(".toggle-btn");
 const btn_img = document.querySelector(".menu-btn");

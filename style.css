@@ -50,14 +50,15 @@ p {
 }
 
 main {
-  margin: 5%;
+  margin-inline: 15%;
+  margin-block: 5%;
 }
 
 /* ======== HEADER ======== */
 
 .banner {
   background: rgb(213, 193, 122);
-  padding: 0.5rem 5%;
+  padding: 0.1em 5%;
   position: sticky;
   top: 0;
   display: flex;
@@ -137,9 +138,35 @@ main {
   transform: translate3d(0, 0, 0);
 }
 
+/*=========== TAK =========== */
+.tak {
+  padding-block-end: 2rem;
+}
+
+.tak-btn {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  outline: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  margin: 0;
+}
+
+.tak-btn:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
+
 @media (max-width: 570px) {
   /* ========= GLOBALT - START =========
-
+  
   =========== HEADER =========== */
 
   .banner {

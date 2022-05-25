@@ -47,6 +47,42 @@
         </nav>
       </div>
     </header>
+    <main>
+          <section id="contact_form">
+        <div id="container">
+          <h1 id="h1_contact">Kontakt</h1>
+          <form action="tak.html" name="kontakt" method="post" id="contact_form" netlify>
+            <div class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="Dit navn" name="name" id="name_input" required />
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="Din email" name="email" id="email_input" required />
+            </div>
+            <div class="telephone">
+              <label for="name"></label>
+              <input type="text" placeholder="Dit telefonnummer" name="telephone" id="telephone_input" required />
+            </div>
+            <div class="subject">
+              <label for="subject"></label>
+              <select placeholder="Emne" name="subject" id="subject_input" required>
+                <option disabled hidden selected>Emne</option>
+                <option>Jeg vil gerne bestille et produkt</option>
+                <option>Jeg vil gerne efterspørge en specifik bog</option>
+                <option>Jeg har udgivet en bog og vil gerne sælge den hos jer</option>
+                <option>Andet.</option>
+              </select>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="SKRIV DIN BESKED HER" id="message_input" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Send besked" id="form_button" />
+            </div>
+          </form>
+        </main>
         <script src="script.js"></script>
   </body>
 </html>
