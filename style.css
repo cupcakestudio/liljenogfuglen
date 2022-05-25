@@ -1,27 +1,148 @@
-/* ========= GENERELT - START ========= */
-/* ========= GENERELT - SLUT ========= */
-/* ========= INDEX - START ========= */
-/* ========= INDEX - SLUT ========= */
-/* ========= NYHEDER - START ========= */
-/* ========= NYHEDER - SLUT ========= */
-/* ========= SORTIMENT - START ========= */
-/* ========= SORTIMENT - SLUT ========= */
-/* ========= OM OS - START  ========= */
-/* ========= OM OS - SLUT  ========= */
-/* ========= KONTAKT - START ========= */
-/* ========= KONTAKT - SLUT ========= */
+/* === INFO === INFO === INFO ===
 
-@media (min-width: 600px) {
-  /* ========= GENERELT - START ========= */
-  /* ========= GENERELT - SLUT ========= */
-  /* ========= INDEX - START ========= */
-  /* ========= INDEX - SLUT ========= */
-  /* ========= NYHEDER - START ========= */
-  /* ========= NYHEDER - SLUT ========= */
-  /* ========= SORTIMENT - START ========= */
-  /* ========= SORTIMENT - SLUT ========= */
-  /* ========= OM OS - START  ========= */
-  /* ========= OM OS - SLUT  ========= */
-  /* ========= KONTAKT - START ========= */
-  /* ========= KONTAKT - SLUT ========= */
+Paragraf: font-family: 'EB Garamond', serif;
+MENU: font-family: 'Lato', sans-serif;
+Header (h1, h2 osv.): font-family: 'Vidaloka', serif;
+
+========= GLOBALT - START ========= */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin-inline: auto;
+  background-image: url(img/COLOURBOX32724169.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Vidaloka", serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Vidaloka", serif;
+}
+
+h3 {
+  font-size: 18.72px;
+  font-family: "Vidaloka", serif;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: "Vidaloka", serif;
+}
+
+.menu-font {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: "Lato", sans-serif;
+}
+
+/* ======== HEADER ======== */
+
+.banner {
+  background: rgba(213, 193, 122, 1);
+  padding: 0.5rem 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo > a > img {
+  width: 100px;
+  height: 100px;
+}
+
+.header-text {
+  font-size: 1.5rem;
+}
+
+.banner > a > img {
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.main-menu {
+  display: contents;
+}
+
+.main-menu ul {
+  display: none;
+}
+
+.main-menu.shown ul {
+  text-decoration: none;
+  list-style: none;
+  gap: 2em;
+  border-top: 2px solid #000;
+  padding-block: 1.5rem 1rem;
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: row;
+  justify-content: center;
+}
+/* ========== UNDERLINE EFFECT PÅ LINKS ============ */
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+
+.main-menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 1;
+  transition: opacity 300ms, transform 300ms;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.main-menu a:hover::after,
+.main-menu a:focus::after {
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 570px) {
+  /* ========= GLOBALT - START ========= */
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .main-menu a {
+    display: inline-block;
+  }
+
+  /* ========= GLOBALT - SLUT ========= */
 }
