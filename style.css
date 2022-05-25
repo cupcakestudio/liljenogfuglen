@@ -137,7 +137,9 @@ main {
 }
 
 @media (max-width: 570px) {
-  /* ========= GLOBALT - START ========= */
+  /* ========= GLOBALT - START =========
+
+  =========== HEADER =========== */
 
   .banner {
     padding: 0.25rem;
