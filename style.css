@@ -54,6 +54,10 @@ main {
   margin-block: 5%;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ======== HEADER ======== */
 
 .banner {

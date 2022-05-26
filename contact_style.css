@@ -1,3 +1,70 @@
+.find-us {
+}
+
+.contact-h1 {
+  text-align: center;
+  padding-block-end: 2rem;
+}
+
+.aabningstid-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.aabningstid-dage > ul,
+.aabningstid-tider > ul,
+.adresse-container > ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.aabningstid-dage > ul > li,
+.aabningstid-tider > ul > li,
+.adresse-container > ul > li {
+  margin-block-end: 5px;
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+}
+
+.aabningstid-dage {
+  max-width: 200px;
+}
+
+.aabningstid-tider,
+.maps-container {
+  text-align: start;
+}
+
+.aabningstid,
+.adresse,
+.maps {
+  margin-inline: auto;
+  border: 1px solid rgba(71, 69, 68, 0.5);
+  margin-block-end: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+}
+.aabningstid > h2,
+.adresse > h2,
+.maps > h2 {
+  padding-block-end: 1rem;
+  text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
+  text-underline-offset: 10px;
+}
+
+.adresse-container,
+.maps-container {
+  text-align: center;
+}
+
+.maps-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*=========== FORM =============*/
 button {
   overflow: visible;
 }
@@ -28,7 +95,7 @@ textarea {
 
 #container {
   border: solid 0.1px #474544;
-  max-width: 800px;
+  max-width: 900px;
   margin: 50px auto;
   position: relative;
 }
@@ -144,4 +211,36 @@ textarea {
 #form_button:hover {
   background: #474544;
   color: #f2f3eb;
+}
+
+@media (min-width: 1162px) {
+  .find-us {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 300px));
+    justify-content: center;
+  }
+
+  .aabningstid-container {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) minmax(120px, 1fr);
+    gap: 1rem;
+  }
+
+  .aabningstid,
+  .adresse,
+  .maps {
+    margin-inline: auto;
+    border: none;
+    margin-block-end: 1rem;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .aabningstid > h2,
+  .adresse > h2 {
+    padding-block-end: 1rem;
+    text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
+    text-underline-offset: 10px;
+    text-align: center;
+  }
 }
