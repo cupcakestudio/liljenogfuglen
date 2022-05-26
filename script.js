@@ -37,13 +37,13 @@ window.addEventListener("resize", tjekSize);
 
 function tjekSize() {
   console.log(tjekSize);
-  if (window.matchMedia("(max-width: 1161px)").matches) {
+  if (window.matchMedia("(min-width: 1161px)").matches) {
     console.log("Vinduet er stort nok");
-    mapLille.classList.remove("hidden");
-    mapStor.classList.add("hidden");
-  } else {
-    console.log("Vinduet er for småt");
     mapLille.classList.add("hidden");
     mapStor.classList.remove("hidden");
+  } else {
+    console.log("Vinduet er for småt");
+    mapLille.classList.remove("hidden");
+    mapStor.classList.add("hidden");
   }
 }

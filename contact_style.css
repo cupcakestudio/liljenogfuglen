@@ -52,6 +52,7 @@
   padding-block-end: 1rem;
   text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
   text-underline-offset: 10px;
+  text-align: center;
 }
 
 .adresse-container,
@@ -65,6 +66,12 @@
 }
 
 /*=========== FORM =============*/
+
+#contact_form > h2 {
+  text-align: center;
+  padding-block: 2rem 1rem;
+}
+
 button {
   overflow: visible;
 }
@@ -96,7 +103,7 @@ textarea {
 #container {
   border: solid 0.1px #474544;
   max-width: 900px;
-  margin: 50px auto;
+  margin: 10px auto;
   position: relative;
 }
 
@@ -237,10 +244,14 @@ textarea {
   }
 
   .aabningstid > h2,
-  .adresse > h2 {
+  .adresse > h2 .maps > h2 {
     padding-block-end: 1rem;
     text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
     text-underline-offset: 10px;
+    text-align: center;
+  }
+
+  #contact_form > h2 {
     text-align: center;
   }
 }
