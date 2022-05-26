@@ -1,0 +1,15 @@
+h2{
+ text-align: center;
+  padding-block-end: 1rem;
+  text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
+  text-underline-offset: 10px;
+}
+.om_butikken,
+.vaerdier,
+.forhandlere {
+  margin-inline: auto;
+  border: 1px solid rgba(71, 69, 68, 0.5);
+  margin-block-end: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+}
