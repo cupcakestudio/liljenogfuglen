@@ -1,5 +1,3 @@
-//Load window
-
 const btn = document.querySelector(".toggle-btn");
 const btn_img = document.querySelector(".menu-btn");
 const menu = document.querySelector(".main-menu");
@@ -30,6 +28,7 @@ btn.addEventListener("click", toggleMenu);
 
 // ======== CONTACT =======
 
+// Tjek om kortet skal være "stort" eller "lille"
 const mapStor = document.querySelector(".mapouter1");
 const mapLille = document.querySelector(".mapouter2");
 
