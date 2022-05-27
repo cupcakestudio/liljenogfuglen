@@ -39,15 +39,32 @@ h2{
 /*layout format for selve tekstindholdet*/
 .forhandler_flex {
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
+  flex-direction: row;
+    align-content: space-between;
 }
 
 #Louise {
   align-self: flex-start;
+  margin-left: 3em;
+    padding: 0.5em;
+    font-size: 0.5em;
 }
 
 #Emilie {
   align-self: flex-end;
-  margin-top: 1em;
+  margin-left: 4em;
+    padding: 1.5em;
 }
+/* 
+til mobil skærm
+#Louise {
+  align-self: flex-start;
+  margin-left: 1em;
+  padding: 0.5em
+}
+
+#Emilie {
+  align-self: flex-end;
+  margin-left: 4em;
+  padding: 1.5em;
+} */
