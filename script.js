@@ -28,6 +28,8 @@ btn.addEventListener("click", toggleMenu);
 
 // ======== CONTACT =======
 
+window.addEventListener("load", tjekSize);
+
 // Tjek om kortet skal være "stort" eller "lille"
 const mapStor = document.querySelector(".mapouter1");
 const mapLille = document.querySelector(".mapouter2");
