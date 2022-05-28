@@ -26,6 +26,17 @@ function toggleMenu() {
 // Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
 
+// ======== ASSORTMENT =======
+const img1 = document.querySelector(".image1");
+
+function hover(img1) {
+  img1.setAttribute("src", "img/bøger2.jpg");
+}
+
+function unhover(img1) {
+  img1.setAttribute("src", "img/bøger1.jpg");
+}
+
 // ======== CONTACT =======
 
 window.addEventListener("load", tjekSize);
