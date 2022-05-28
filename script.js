@@ -59,3 +59,24 @@ function tjekSize() {
     mapStor.classList.add("hidden");
   }
 }
+
+/* ===================OM OS==================================*/
+window.onload;
+window.addEventListener("resize", mobile_version);
+
+/* resize på bogforhandler_tekst i om-html.*/
+
+function mobile_version() {
+let widthscreen = document.querySelector("#book_background").clientWidth;
+let myFontinProcent = 3;
+let myFont = (widthscreen /  100) * myFontinProcent;
+
+  console.log("Nu er jeg i mobilversion");
+ if (window.matchMedia("(max-width: 600px)").matches){ 
+   document.querySelector("#louise_text").style.FontSize = myFont + "px" ;
+   console.log("jeg ændres")
+}
+else {
+   document.querySelector("#louise_text").style.FontSize =  20+ "px" ;
+}
+}

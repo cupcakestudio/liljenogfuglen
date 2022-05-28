@@ -19,9 +19,9 @@ h2{
 }
 .om_butikken,
 .vaerdier {
-
   margin-bottom: 2em;
   }
+
 /* OM BUTIKKEN */
 .om_butikken {
   display: inline-flex;
@@ -84,8 +84,22 @@ video {
   margin-left: 4em;
     padding: 1.5em;
 }
+/* MOBIL VERSION */
+@media (max-width: 600px) {
+  .om_butikken {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .om_butikken video {
+    order: -1;
+  }
+
+  p {
+    font-size: none
+  }
 /* 
-til mobil skærm
 #Louise {
   align-self: flex-start;
   margin-left: 1em;
@@ -96,4 +110,7 @@ til mobil skærm
   align-self: flex-end;
   margin-left: 4em;
   padding: 1.5em;
-} */
+}
+
+*/
+}
