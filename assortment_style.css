@@ -7,6 +7,9 @@
 
 figcaption {
   text-align: center;
+  margin-block: 10px;
+  font-size: 16px;
+  font-family: "EB Garamond", serif;
 }
 
 .flex-col {
@@ -15,6 +18,11 @@ figcaption {
 }
 .image1 {
   max-width: 100%;
+}
+
+.image1:hover {
+  max-width: 100%;
+  background: url(img/bøger2.jpg);
 }
 
 .image2 {
