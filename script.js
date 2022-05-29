@@ -26,7 +26,7 @@ function toggleMenu() {
 // Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
 
-// ======== ASSORTMENT =======
+// // ======== ASSORTMENT =======
 
 // ======== ALLE KONSTANTER ========
 const img1 = document.querySelector(".image1");
@@ -263,9 +263,32 @@ let myFont = (widthscreen /  100) * myFontinProcent;
  { 
    document.querySelector("#louise_text").style.fontSize = myFont + "px" ;
    document.querySelector("#emilie_text").style.fontSize = myFont + "px" ;
-   console.log("Nu er jeg i mobilversion")
+   
+ }
 }
-else {
-  console.log("jeg er stor nok");
+
+/* video  player - fra  david repo*/
+
+const button = document.querySelector(".video-player button");
+const vid = document.querySelector(".video-player video");
+
+function pressPlay() {
+  if (vid.paused || vid.ended) {
+    vid.play();
+    vid.parentElement.classList.add("playing");
+    vid.controls = true;
+    button.classList.add("hide"); //selv tilføjet hide class
+  }
 }
+
+function vidEnded() {
+  if (vid.parentElement.classList.contains("playing")) {
+    vid.parentElement.classList.remove("playing");
+    button.classList.remove("hide");
+  }
+  vid.currentTime = 0;
+  vid.controls = false;
 }
+
+button.addEventListener("click", pressPlay);
+vid.addEventListener("ended", vidEnded);
