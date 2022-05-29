@@ -27,14 +27,42 @@ function toggleMenu() {
 btn.addEventListener("click", toggleMenu);
 
 // ======== ASSORTMENT =======
-const img1 = document.querySelector(".image1");
 
-function hover(img1) {
-  img1.setAttribute("src", "img/bøger2.jpg");
+// ======== ALLE KONSTANTER ========
+const img1 = document.querySelector(".image1");
+const img2 = document.querySelector(".image2");
+
+// MOUSE OVER OG OUT lyttere
+img1.onmouseover = function () {
+  img1MouseOver();
+};
+img1.onmouseout = function () {
+  img1MouseOut();
+};
+
+img2.onmouseover = function () {
+  img2MouseOver();
+};
+img2.onmouseout = function () {
+  img2MouseOut();
+};
+
+// FUNKTIONERNE
+
+function img1MouseOver() {
+  img1.setAttribute("src", "img/boeger2.jpg");
 }
 
-function unhover(img1) {
-  img1.setAttribute("src", "img/bøger1.jpg");
+function img1MouseOut() {
+  img1.setAttribute("src", "img/boeger1.jpg");
+}
+
+function img2MouseOver() {
+  img2.setAttribute("src", "img/notesboeger2.jpg");
+}
+
+function img2MouseOut() {
+  img2.setAttribute("src", "img/notesboeger1.jpg");
 }
 
 // ======== CONTACT =======
