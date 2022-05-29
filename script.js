@@ -61,22 +61,23 @@ function tjekSize() {
 }
 
 /* ===================OM OS==================================*/
-window.onload;
 window.addEventListener("resize", mobile_version);
 
 /* resize på bogforhandler_tekst i om-html.*/
 
 function mobile_version() {
-let widthscreen = document.querySelector("#book_background").clientWidth;
-let myFontinProcent = 3;
+let widthscreen = document.querySelector("#book").clientWidth;
+let myFontinProcent = 2.5;
 let myFont = (widthscreen /  100) * myFontinProcent;
 
-  console.log("Nu er jeg i mobilversion");
- if (window.matchMedia("(max-width: 600px)").matches){ 
-   document.querySelector("#louise_text").style.FontSize = myFont + "px" ;
-   console.log("jeg ændres")
+  console.log("jeg ændres");
+ if (window.matchMedia("(max-width: 600px)").matches)
+ { 
+   document.querySelector("#louise_text").style.fontSize = myFont + "px" ;
+   document.querySelector("#emilie_text").style.fontSize = myFont + "px" ;
+   console.log("Nu er jeg i mobilversion")
 }
 else {
-   document.querySelector("#louise_text").style.FontSize =  20+ "px" ;
+  console.log("jeg er stor nok");
 }
 }
