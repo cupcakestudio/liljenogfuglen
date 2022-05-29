@@ -5,6 +5,9 @@ h2{
   text-underline-offset: 10px;
 }
 
+.banner h2 {
+  text-decoration: none;
+}
 .om_butikken,
 .vaerdier,
 .forhandlere {
@@ -14,6 +17,10 @@ h2{
   padding: 1rem;
   max-width: 900px;
 }
+.om_butikken,
+.vaerdier {
+  margin-bottom: 2em;
+  }
 
 /* OM BUTIKKEN */
 .om_butikken {
@@ -26,7 +33,13 @@ video {
  border: 1px solid #d5c17a;
 
 }
-/* FORHANDLERE*/
+/* VÆRDIER */
+.vaerdier {
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORHANDLERE */
 #book_background {
   display: grid;
   place-items: center;
@@ -55,20 +68,47 @@ video {
     align-content: space-between;
 }
 
-#Louise {
-  align-self: flex-start;
-  margin-left: 3em;
+/* louise  og emilies content_format */
+.louise_content_flex,
+.emilie_content_flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4em;
     padding: 0.5em;
-    font-size: 0.5em;
 }
 
+/* format på hele Emilie containeren*/
 #Emilie {
   align-self: flex-end;
   margin-left: 4em;
     padding: 1.5em;
 }
+
+/* MOBIL VERSION */
+@media (max-width: 600px) {
+  .om_butikken {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .om_butikken video {
+    order: -1;
+  }
+
+p {
+  break-inside: avoid;
+  }
+  
+  .louise_content_flex,
+  .emilie_content_flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+  }
 /* 
-til mobil skærm
 #Louise {
   align-self: flex-start;
   margin-left: 1em;
@@ -79,4 +119,7 @@ til mobil skærm
   align-self: flex-end;
   margin-left: 4em;
   padding: 1.5em;
-} */
+}
+
+*/
+}
