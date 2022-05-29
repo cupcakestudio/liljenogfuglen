@@ -159,7 +159,7 @@ video {
     gap: 10px;
   }
 
-  .om_butikken video {
+  .om_butikken .video-player {
     order: -1;
   }
 
