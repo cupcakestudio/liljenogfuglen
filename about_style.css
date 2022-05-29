@@ -61,24 +61,7 @@ video {
 }
 
 
-/*layout format for selve tekstindholdet*/
-/* .forhandler_flex {
-  display: inline-flex;
-  flex-direction: row;
-    align-content: space-between;
-}
 
-*/
-/* louise  og emilies content_format */
-/* .louise_content_flex,
-.emilie_content_flex {
-  display: flex;
-  flex-direction: row;
-  margin-left: 4em;
-    padding: 0.5em;
-}
-
-*/
 /*layout  format for tekstindholdet af forhandlerne */
 
 #book_background {
@@ -130,9 +113,11 @@ p {
   break-inside: avoid;
   }
   
+
 .forhandler_flex {
   padding: 1rem;
 }
+
 .louise_content_flex,
 .emilie_content_flex {
   display: flex;
@@ -151,18 +136,4 @@ p {
   padding: 0rem 0.5rem;
   overflow: scroll
 }
-/* 
-#Louise {
-  align-self: flex-start;
-  margin-left: 1em;
-  padding: 0.5em
-}
-
-#Emilie {
-  align-self: flex-end;
-  margin-left: 4em;
-  padding: 1.5em;
-}
-
-*/
 }
