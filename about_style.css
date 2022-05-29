@@ -1,5 +1,5 @@
-h2{
- text-align: center;
+h2 {
+  text-align: center;
   padding-block-end: 1rem;
   text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
   text-underline-offset: 10px;
@@ -20,7 +20,7 @@ h2{
 .om_butikken,
 .vaerdier {
   margin-bottom: 2em;
-  }
+}
 
 /* OM BUTIKKEN */
 .om_butikken {
@@ -30,8 +30,7 @@ h2{
 }
 
 video {
- border: 1px solid #d5c17a;
-
+  border: 1px solid #d5c17a;
 }
 /* VÆRDIER */
 .vaerdier {
@@ -43,14 +42,12 @@ video {
 #book_background {
   display: grid;
   place-items: center;
-
 }
 
 /*  sørg for at tekstindhold står i/på  svg */
-#book_background>img,
-#book_background>section {
+#book_background > img,
+#book_background > section {
   grid-area: 1/1;
-
 }
 
 #book {
@@ -60,12 +57,11 @@ video {
   background-repeat: no-repeat;
 }
 
-
 /*layout format for selve tekstindholdet*/
 .forhandler_flex {
   display: flex;
   flex-direction: row;
-    align-content: space-between;
+  align-content: space-between;
 }
 
 /* louise  og emilies content_format */
@@ -74,14 +70,14 @@ video {
   display: flex;
   flex-direction: row;
   margin-left: 4em;
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
 /* format på hele Emilie containeren*/
 #Emilie {
   align-self: flex-end;
   margin-left: 4em;
-    padding: 1.5em;
+  padding: 1.5em;
 }
 
 /* MOBIL VERSION */
@@ -96,10 +92,10 @@ video {
     order: -1;
   }
 
-p {
-  break-inside: avoid;
+  p {
+    break-inside: avoid;
   }
-  
+
   .louise_content_flex,
   .emilie_content_flex {
     display: flex;
@@ -108,7 +104,7 @@ p {
     padding: 0;
     overflow: hidden;
   }
-/* 
+  /* 
 #Louise {
   align-self: flex-start;
   margin-left: 1em;

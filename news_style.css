@@ -1,0 +1,49 @@
+.container-udgivelser {
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: 1rem;
+  max-height: 100%;
+  border: 1px solid rgba(71, 69, 68, 0.5);
+  padding: 1rem;
+}
+
+.container-udgivelser .bog {
+  max-width: 200px;
+}
+
+.h1-udgivelser {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container-anbefalinger {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  gap: 1rem;
+  max-height: 800px;
+  border: 1px solid rgba(71, 69, 68, 0.5);
+  padding: 1rem;
+}
+
+.anbefaling1,
+.anbefaling2,
+.anbefaling3 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.anbefaling1 img,
+.anbefaling2 img,
+.anbefaling3 img {
+  max-width: 250px;
+  height: 100%;
+}
+
+.h1-anbefalinger {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
