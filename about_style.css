@@ -62,14 +62,15 @@ video {
 
 
 /*layout format for selve tekstindholdet*/
-.forhandler_flex {
-  display: flex;
+/* .forhandler_flex {
+  display: inline-flex;
   flex-direction: row;
     align-content: space-between;
 }
 
+*/
 /* louise  og emilies content_format */
-.louise_content_flex,
+/* .louise_content_flex,
 .emilie_content_flex {
   display: flex;
   flex-direction: row;
@@ -77,9 +78,38 @@ video {
     padding: 0.5em;
 }
 
+*/
+/*layout  format for tekstindholdet af forhandlerne */
+
+#book_background {
+  position: relative;
+  display: inline-block;
+  /*container og img str matcher.*/
+  font-size: 0;
+}
+
+.forhandler_flex {
+  display: flex;
+  /*sørger for layout bliver flex og ikke block*/
+  flex-direction: row;
+  position: absolute;
+  top: 2rem;
+  box-sizing: border-box;
+  max-height: calc(100% - 2rem);
+  /*sørger for at det bliver indenfor container*/
+  padding: 3rem;
+  font-size: 1rem;
+  /*resizer font*/
+  overflow: scroll;
+}
+
+.louise_content_flex,
+.emilie_content_flex {
+  display: flex;
+  flex-direction: row;
+}
 /* format på hele Emilie containeren*/
 #Emilie {
-  align-self: flex-end;
   margin-left: 4em;
     padding: 1.5em;
 }
@@ -100,14 +130,27 @@ p {
   break-inside: avoid;
   }
   
-  .louise_content_flex,
-  .emilie_content_flex {
-    display: flex;
-    flex-direction: row;
+.forhandler_flex {
+  padding: 1rem;
+}
+.louise_content_flex,
+.emilie_content_flex {
+  display: flex;
+  flex-direction: column;
     margin-left: 0;
     padding: 0;
     overflow: hidden;
   }
+#Louise {
+
+  overflow: scroll
+}
+
+#Emilie {
+  margin-left: 2.5em;
+  padding: 0rem 0.5rem;
+  overflow: scroll
+}
 /* 
 #Louise {
   align-self: flex-start;
