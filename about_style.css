@@ -24,9 +24,9 @@ h2 {
 
 /* OM BUTIKKEN */
 .om_butikken {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 
 /*video layout*/
