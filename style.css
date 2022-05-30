@@ -154,6 +154,8 @@ main {
   bottom: 40px;
   right: 40px;
   z-index: 50;
+  background-image: url(img/background_texture_40.webp);
+  background-size: contain;
 }
 
 .insta-close-btn {
@@ -256,9 +258,9 @@ main {
     display: inline-block;
   }
 
-        footer {
-          text-align: center;
-          background-color: #d5c17a;
-        }
+  footer {
+    text-align: center;
+    background-color: #d5c17a;
+  }
   /* ========= GLOBALT - SLUT ========= */
 }
