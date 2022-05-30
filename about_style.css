@@ -138,7 +138,7 @@ video {
 .forhandler_flex.scroll {
   display: none;
 }
-.louise_content_flex,
+.louisa_content_flex,
 .emilie_content_flex {
   display: flex;
   flex-direction: row;
@@ -167,7 +167,7 @@ video {
     break-inside: avoid;
   }
 
-  .louise_content_flex,
+  .louisa_content_flex,
   .emilie_content_flex {
     display: flex;
     flex-direction: row;
@@ -177,7 +177,7 @@ video {
     padding: 1rem;
   }
 
-  .louise_content_flex,
+  .louisa_content_flex,
   .emilie_content_flex {
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@ video {
     overflow: hidden;
   }
   /* 
-#Louise {
+#Louisa {
 
   overflow: scroll
 }
