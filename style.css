@@ -158,6 +158,11 @@ main {
   background-size: contain;
 }
 
+.insta-box > a {
+  text-decoration: none;
+  color: #000;
+}
+
 .insta-close-btn {
   position: absolute;
   top: -15px;
@@ -168,9 +173,16 @@ main {
   border-radius: 55%;
 }
 
+.insta-box-1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
 .insta-logo,
 .insta-head {
   display: inline;
+  text-align: center;
 }
 
 .appear {
