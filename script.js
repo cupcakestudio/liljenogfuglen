@@ -130,99 +130,99 @@ img12.onmouseout = function () {
 // FUNKTIONERNE;
 
 function img1MouseOver() {
-  img1.setAttribute("src", "img/boeger2.jpg");
+  img1.setAttribute("src", "img/boeger2.webp");
 }
 
 function img1MouseOut() {
-  img1.setAttribute("src", "img/boeger1.jpg");
+  img1.setAttribute("src", "img/boeger1.webp");
 }
 
 function img2MouseOver() {
-  img2.setAttribute("src", "img/notesboeger2.jpg");
+  img2.setAttribute("src", "img/notesboeger2.webp");
 }
 
 function img2MouseOut() {
-  img2.setAttribute("src", "img/notesboeger1.jpg");
+  img2.setAttribute("src", "img/notesboeger1.webp");
 }
 
 function img3MouseOver() {
-  img3.setAttribute("src", "img/flag2.jpg");
+  img3.setAttribute("src", "img/flag2.webp");
 }
 
 function img3MouseOut() {
-  img3.setAttribute("src", "img/flag1.jpg");
+  img3.setAttribute("src", "img/flag1.webp");
 }
 
 function img4MouseOver() {
-  img4.setAttribute("src", "img/kurve2.jpg");
+  img4.setAttribute("src", "img/kurve2.webp");
 }
 
 function img4MouseOut() {
-  img4.setAttribute("src", "img/kurve1.jpg");
+  img4.setAttribute("src", "img/kurve1.webp");
 }
 
 function img5MouseOver() {
-  img5.setAttribute("src", "img/plakater2.jpg");
+  img5.setAttribute("src", "img/plakater2.webp");
 }
 
 function img5MouseOut() {
-  img5.setAttribute("src", "img/plakater1.jpg");
+  img5.setAttribute("src", "img/plakater1.webp");
 }
 
 function img6MouseOver() {
-  img6.setAttribute("src", "img/traelegetoej2.jpg");
+  img6.setAttribute("src", "img/traelegetoej2.webp");
 }
 
 function img6MouseOut() {
-  img6.setAttribute("src", "img/traelegetoej1.jpg");
+  img6.setAttribute("src", "img/traelegetoej1.webp");
 }
 
 function img7MouseOver() {
-  img7.setAttribute("src", "img/bamser2.jpg");
+  img7.setAttribute("src", "img/bamser2.webp");
 }
 
 function img7MouseOut() {
-  img7.setAttribute("src", "img/bamser1.jpg");
+  img7.setAttribute("src", "img/bamser1.webp");
 }
 
 function img8MouseOver() {
-  img8.setAttribute("src", "img/kort2.jpg");
+  img8.setAttribute("src", "img/kort2.webp");
 }
 
 function img8MouseOut() {
-  img8.setAttribute("src", "img/kort1.jpg");
+  img8.setAttribute("src", "img/kort1.webp");
 }
 
 function img9MouseOver() {
-  img9.setAttribute("src", "img/lampe2.jpg");
+  img9.setAttribute("src", "img/lampe2.webp");
 }
 
 function img9MouseOut() {
-  img9.setAttribute("src", "img/lampe1.jpg");
+  img9.setAttribute("src", "img/lampe1.webp");
 }
 
 function img10MouseOver() {
-  img10.setAttribute("src", "img/spil2.jpg");
+  img10.setAttribute("src", "img/spil2.webp");
 }
 
 function img10MouseOut() {
-  img10.setAttribute("src", "img/spil1.jpg");
+  img10.setAttribute("src", "img/spil1.webp");
 }
 
 function img11MouseOver() {
-  img11.setAttribute("src", "img/aesker2.jpg");
+  img11.setAttribute("src", "img/aesker2.webp");
 }
 
 function img11MouseOut() {
-  img11.setAttribute("src", "img/aesker1.jpg");
+  img11.setAttribute("src", "img/aesker1.webp");
 }
 
 function img12MouseOver() {
-  img12.setAttribute("src", "img/puslespil2.jpg");
+  img12.setAttribute("src", "img/puslespil2.webp");
 }
 
 function img12MouseOut() {
-  img12.setAttribute("src", "img/puslespil1.jpg");
+  img12.setAttribute("src", "img/puslespil1.webp");
 }
 
 // ======== CONTACT =======
