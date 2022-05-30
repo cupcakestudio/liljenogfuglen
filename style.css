@@ -245,6 +245,10 @@ main {
   background: #474544;
   color: #f2f3eb;
 }
+footer {
+  text-align: center;
+  background-color: #d5c17a;
+}
 
 @media (max-width: 570px) {
   /* ========= GLOBALT - START =========
