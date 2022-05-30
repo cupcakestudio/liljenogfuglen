@@ -147,8 +147,8 @@ video {
 }
 /* format på hele Emilie containeren*/
 #Emilie {
-  margin-left: 4em;
-  padding: 1.5em;
+      margin-left: 1em;
+        padding: 1.5em;
 }
 
 /* MOBIL VERSION */
@@ -185,17 +185,16 @@ video {
     padding: 0;
     overflow: hidden;
   }
-  /* 
-#Louisa {
-
+        #Emilie {
+          margin-left: 2.5em;
+          padding: 0rem 0.5rem;
+          overflow: scroll
+        }
+        #Louisa {
+          padding: 0rem 0.5rem;
   overflow: scroll
 }
-
-#Emilie {
-  margin-left: 2.5em;
-  padding: 0rem 0.5rem;
-  overflow: scroll
-}
+    /* 
 
 */
 }
