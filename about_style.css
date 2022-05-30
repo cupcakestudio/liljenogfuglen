@@ -29,6 +29,9 @@ h2 {
   gap: 20px;
 }
 
+#om_butikken {
+  margin-top: 2em;
+}
 /*video layout*/
 .video-player {
   display: grid;
@@ -150,6 +153,8 @@ video {
       margin-left: 1em;
         padding: 0 1.5em;
 }
+
+
 
 /* MOBIL VERSION */
 @media (max-width: 600px) {
