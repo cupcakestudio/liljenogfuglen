@@ -255,7 +255,7 @@ window.addEventListener("resize", mobile_version);
 
 function mobile_version() {
 let widthscreen = document.querySelector("#book").clientWidth;
-let myFontinProcent = 2.5;
+let myFontinProcent = 3;
 let myFont = (widthscreen /  100) * myFontinProcent;
 
   console.log("jeg ændres");
@@ -264,6 +264,9 @@ let myFont = (widthscreen /  100) * myFontinProcent;
    document.querySelector("#louise_text").style.fontSize = myFont + "px" ;
    document.querySelector("#emilie_text").style.fontSize = myFont + "px" ;
    
+ }  else {
+   document.querySelector("#louise_text").style.fontSize = 16 + "px" ;
+   document.querySelector("#emilie_text").style.fontSize = 16 + "px" ;
  }
 }
 
