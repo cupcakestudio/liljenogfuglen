@@ -127,7 +127,7 @@ img12.onmouseout = function () {
   img12MouseOut();
 };
 
-FUNKTIONERNE;
+// FUNKTIONERNE;
 
 function img1MouseOver() {
   img1.setAttribute("src", "img/boeger2.jpg");
