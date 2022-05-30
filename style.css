@@ -15,26 +15,27 @@ body {
   background-image: url(img/COLOURBOX32724169.jpg);
   background-size: cover;
   background-repeat: repeat;
+  font-family: "Vidaloka", serif;
 }
 
 h1 {
   font-size: 32px;
-  font-family: "Vidaloka", serif;
+  
 }
 
 h2 {
   font-size: 24px;
-  font-family: "Vidaloka", serif;
+  /* font-family: "Vidaloka", serif; */
 }
 
 h3 {
   font-size: 18.72px;
-  font-family: "Vidaloka", serif;
+  /* font-family: "Vidaloka", serif; */
 }
 
 h4 {
   font-size: 16px;
-  font-family: "Vidaloka", serif;
+  /* font-family: "Vidaloka", serif; */
 }
 
 p {
