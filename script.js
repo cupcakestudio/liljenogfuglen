@@ -26,7 +26,42 @@ function toggleMenu() {
 // Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
 
-// // ======== ASSORTMENT =======
+// // ======== INSTA FLOAT =======
+
+//Konstant til boxen med insta-informationer
+const insta = document.querySelector(".insta-box");
+const instaLuk = document.querySelector(".insta-close-btn");
+
+//functionen til at få boxen frem
+function showInsta() {
+  console.log("showInsta");
+
+  insta.classList.toggle("hidden");
+  insta.classList.add("appear");
+
+  instaLuk.addEventListener("click", hideInsta);
+}
+
+//Sætter en timeout på 4 sekunder, så burde boxen komme frem.
+setTimeout(showInsta, 3000);
+
+function hideInsta() {
+  console.log("hideInsta");
+
+  instaLuk.removeEventListener("click", hideInsta);
+
+  insta.classList.remove("appear");
+  insta.classList.add("dissapear");
+
+  insta.addEventListener("animationend", hiddenInsta);
+}
+
+function hiddenInsta() {
+  console.log("hiddenInsta");
+
+  insta.classList.remove("dissapear");
+  insta.classList.toggle("hidden");
+}
 
 // // ======== ALLE KONSTANTER ========
 const img1 = document.querySelector(".image1");
