@@ -8,10 +8,10 @@
 #splash {
   max-width: 100%;
   height: 90%;
-  
   background-image: url(img/splash.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% -50%;
 }
 
 section {
@@ -203,7 +203,12 @@ footer {
   text-align: center;
   background-color: #d5c17a;
 }
-@media (min-width: 1162px) {
+@media (max-width: 600px) {
+
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
   #contact_form>h2 {
     text-align: center;
