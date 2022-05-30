@@ -199,10 +199,7 @@ textarea {
 }
 
 
-footer {
-  text-align: center;
-  background-color: #d5c17a;
-}
+
 @media (max-width: 600px) {
 
   .categories {
