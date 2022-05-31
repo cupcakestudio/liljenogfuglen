@@ -1,40 +1,24 @@
+/* GENERELT*/
+
+h1 {
+  text-align: center;
+  padding-block-end: var(--pad-end);
+}
+
 h2 {
   text-align: center;
-  padding-block-end: 1rem;
-  text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
-  text-underline-offset: 10px;
+  padding-block-end: 0.5rem;
 }
 
-.banner h2 {
-  text-decoration: none;
-}
-.om_butikken,
-.vaerdier,
-.forhandlere {
-  margin-inline: auto;
-  border: 1px solid rgba(71, 69, 68, 0.5);
-  margin-block-end: 1rem;
-  padding: 1rem;
-  max-width: 900px;
-}
-.om_butikken,
-.vaerdier {
-  margin-bottom: 2em;
+article > h3 {
+  padding-block-end: var(--pad-end);
 }
 
-/* OM BUTIKKEN */
-.om_butikken {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-#om_butikken {
-  margin-top: 2em;
-}
+/* VIDEO */
 /*video layout*/
 .video-player {
   display: grid;
+  padding-block-end: var(--pad-end);
 }
 
 .video-player > * {
@@ -93,6 +77,27 @@ video {
   flex-direction: column;
 }
 
+/* OM BUTIK OG VÆRDIER*/
+
+.om_butikken,
+.vaerdier,
+.forhandlere {
+  margin-inline: auto;
+  padding-block-end: 2rem;
+  max-width: 900px;
+}
+
+/* OM BUTIKKEN */
+.om_butikken {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#om_butikken {
+  margin-top: 2em;
+}
+
 /* FORHANDLERE */
 #book_background {
   display: grid;
@@ -148,8 +153,8 @@ video {
   margin-left: 4em;
   padding: 0.5em;
 }
-.louisa_content_flex>figure,
-.emilie_content_flex>figure {
+.louisa_content_flex > figure,
+.emilie_content_flex > figure {
   align-content: start;
   align-self: start;
   margin-right: 15px;
@@ -162,24 +167,12 @@ video {
 }
 /* format på hele Emilie containeren*/
 #Emilie {
-      margin-left: 1em;
-        padding: 0 1.5em;
+  margin-left: 1em;
+  padding: 0 1.5em;
 }
-
-
 
 /* MOBIL VERSION */
 @media (max-width: 600px) {
-  .om_butikken {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .om_butikken .video-player {
-    order: -1;
-  }
-
   p {
     break-inside: avoid;
   }
@@ -203,26 +196,40 @@ video {
     overflow: hidden;
   }
 
-#Emilie {
-  margin-left: 2.5em;
-  padding: 0rem 0.5rem;
-  overflow: scroll
-}
-#Louisa {
-  padding: 0rem 0.5rem;
-  overflow: scroll
+  #Emilie {
+    margin-left: 2.5em;
+    padding: 0rem 0.5rem;
+    overflow: scroll;
+  }
+  #Louisa {
+    padding: 0rem 0.5rem;
+    overflow: scroll;
+  }
+
+  .louisa_content_flex > figure,
+  .emilie_content_flex > figure {
+    align-content: start;
+    align-self: start;
+    margin-bottom: 10px;
+  }
+
+  .louisa_content_flex img,
+  .emilie_content_flex img {
+    max-width: 100%;
+    /*float? */
+  }
 }
 
-.louisa_content_flex>figure,
-.emilie_content_flex>figure {
-  align-content: start;
-  align-self: start;
-  margin-bottom: 10px;
-}
+@media (min-width: 800px) {
+  #om-os-grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: auto;
+    gap: var(--pad-end);
+    padding-block-end: 2rem;
+  }
 
-.louisa_content_flex img,
-.emilie_content_flex img {
-  max-width: 100%;
-  /*float? */
-}
+  .cont-2 {
+    padding-inline-start: var(--pad-end);
+  }
 }

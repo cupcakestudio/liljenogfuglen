@@ -26,7 +26,6 @@ function toggleMenu() {
 // Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
 
-
 // // ======== INSTA FLOAT =======
 
 //Konstant til boxen med insta-informationer
@@ -44,7 +43,7 @@ function showInsta() {
 }
 
 //Sætter en timeout på 4 sekunder, så burde boxen komme frem.
-setTimeout(showInsta, 3000);
+setTimeout(showInsta, 100000);
 
 function hideInsta() {
   console.log("hideInsta");

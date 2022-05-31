@@ -4,7 +4,12 @@ Paragraf: font-family: 'EB Garamond', serif;
 MENU: font-family: 'Lato', sans-serif;
 Header (h1, h2 osv.): font-family: 'Vidaloka', serif;
 
-========= GLOBALT - START ========= */
+/*============ VAR ================*/
+html {
+  --pad-end: 1rem;
+}
+
+/*========= GLOBALT - START ========= */
 * {
   margin: 0;
   font-size: 16px;
@@ -21,6 +26,8 @@ body {
 
 h1 {
   font-size: 32px;
+  text-align: center;
+  padding-block-end: var(--padE);
 }
 
 h2 {
