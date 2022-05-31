@@ -4,16 +4,46 @@
   flex-direction: row;
   gap: 1rem;
   max-height: 100%;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .container-udgivelser .bog {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .h1-udgivelser {
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 2%;
+  height: 10%;
+  /*
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  */
+  background: none;
+  cursor: pointer;
+}
+
+.pre-btn {
+  transform: rotate(180deg);
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.3;
+  width: 100%;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 0.6;
 }
 
 .container-anbefalinger {
