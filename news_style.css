@@ -1,11 +1,12 @@
 .container-udgivelser {
   display: flex;
-  overflow-x: auto;
+  overflow: auto;
   flex-direction: row;
   gap: 1rem;
   max-height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-inline: 8px;
 }
 
 .container-udgivelser .bog {
@@ -19,6 +20,7 @@
 
 .pre-btn,
 .nxt-btn {
+  display: inline-block;
   border: none;
   width: 2%;
   height: 10%;
@@ -32,13 +34,14 @@
 }
 
 .pre-btn {
-  transform: rotate(180deg);
+  transform: rotateY(180deg);
 }
 
 .pre-btn img,
 .nxt-btn img {
   opacity: 0.3;
   width: 100%;
+  vertical-align: top;
 }
 
 .pre-btn:hover img,
