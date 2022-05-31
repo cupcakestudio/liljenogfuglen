@@ -2,12 +2,21 @@
 
 h1 {
   text-align: center;
-  padding-block-end: var(--pad-end);
+  padding-block-end: 2rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 40px;
 }
 
 h2 {
+  padding-block: 1.5rem 1rem;
   text-align: center;
-  padding-block-end: 0.5rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 article > h3 {

@@ -43,8 +43,12 @@ figcaption {
 /*=========== FORM =============*/
 
 #contact_form > h2 {
-  text-align: center;
+  text-align: left;
   padding-block: 2rem 1rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 button {

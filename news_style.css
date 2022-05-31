@@ -14,8 +14,13 @@
 }
 
 .h1-udgivelser {
-  margin-bottom: 2rem;
+  padding-block-end: 1rem;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 40px;
 }
 
 .pre-btn,
@@ -69,7 +74,10 @@
 }
 
 .h1-anbefalinger {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  padding-block: 2rem;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }

@@ -1,6 +1,11 @@
 .contact-h1 {
-  text-align: center;
   padding-block-end: 2rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 40px;
 }
 
 .aabningstid-container {
@@ -62,8 +67,12 @@
 .maps > h2 {
   padding-block-end: 1rem;
   text-decoration: underline rgba(71, 69, 68, 0.5) solid 2px;
-  text-underline-offset: 10px;
+  text-underline-offset: 7px;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 .adresse-container,
@@ -79,8 +88,12 @@
 /*=========== FORM =============*/
 
 #contact_form > h2 {
-  text-align: center;
   padding-block: 2rem 1rem;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 button {
