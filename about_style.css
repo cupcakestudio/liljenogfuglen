@@ -136,9 +136,9 @@ video {
   position: absolute;
   top: 2rem;
   box-sizing: border-box;
-  max-height: calc(100% - 2rem);
+  max-height: calc(100% - 3.5rem);
   /*sørger for at det bliver indenfor container*/
-  padding: 3rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
   /*resizer font*/
   overflow: scroll;
@@ -163,7 +163,6 @@ video {
 .louisa_content_flex img,
 .emilie_content_flex img {
   max-width: 100%;
-  /*float? */
 }
 /* format på hele Emilie containeren*/
 #Emilie {
@@ -216,7 +215,9 @@ video {
   .louisa_content_flex img,
   .emilie_content_flex img {
     max-width: 100%;
-    /*float? */
+    float: left;
+    margin-inline-end: 5px;
+    margin-block-end: 5px;
   }
 }
 
@@ -231,5 +232,13 @@ video {
 
   .cont-2 {
     padding-inline-start: var(--pad-end);
+  }
+
+  .louisa_content_flex img,
+  .emilie_content_flex img {
+    max-width: 100%;
+    float: left;
+    margin-inline-end: 5px;
+    margin-block-end: 5px;
   }
 }

@@ -1,4 +1,3 @@
-
 /* ===================OM OS==================================*/
 window.addEventListener("resize", mobile_version);
 
@@ -11,10 +10,10 @@ function mobile_version() {
 
   console.log("jeg ændres");
   if (window.matchMedia("(max-width: 600px)").matches) {
-    document.querySelector("#louise_text").style.fontSize = myFont + "px";
+    document.querySelector("#louisa_text").style.fontSize = myFont + "px";
     document.querySelector("#emilie_text").style.fontSize = myFont + "px";
   } else {
-    document.querySelector("#louise_text").style.fontSize = 16 + "px";
+    document.querySelector("#louisa_text").style.fontSize = 16 + "px";
     document.querySelector("#emilie_text").style.fontSize = 16 + "px";
   }
 }
