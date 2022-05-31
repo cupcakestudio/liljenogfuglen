@@ -1,6 +1,6 @@
 .container-udgivelser {
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   flex-direction: row;
   gap: 1rem;
   max-height: 100%;
@@ -24,11 +24,6 @@
   border: none;
   width: 2%;
   height: 10%;
-  /*
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  */
   background: none;
   cursor: pointer;
 }
