@@ -138,13 +138,11 @@ textarea:focus {
 }
 
 .name {
-  float: left;
-  width: 45%;
+  width: 100%;
 }
 
 .email {
-  float: right;
-  width: 45%;
+  width: 100%;
 }
 
 .telephone {
@@ -153,10 +151,6 @@ textarea:focus {
 
 .subject {
   width: 100%;
-}
-
-.message {
-  float: none;
 }
 
 select {

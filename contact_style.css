@@ -34,15 +34,29 @@
   text-align: start;
 }
 
-.aabningstid,
-.adresse,
-.maps {
+.aabningstid {
   margin-inline: auto;
-  border: 1px solid rgba(71, 69, 68, 0.5);
+  border-bottom: 1px solid rgba(71, 69, 68, 0.5);
   margin-block-end: 1rem;
   padding: 1rem;
   max-width: 900px;
 }
+
+.adresse {
+  margin-inline: auto;
+  border-bottom: 1px solid rgba(71, 69, 68, 0.5);
+  margin-block-end: 1rem;
+  padding: 1rem 0 2rem 0;
+  max-width: 900px;
+}
+
+.maps {
+  margin-inline: auto;
+  margin-block-end: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+}
+
 .aabningstid > h2,
 .adresse > h2,
 .maps > h2 {
@@ -160,13 +174,11 @@ textarea:focus {
 }
 
 .name {
-  float: left;
-  width: 45%;
+  width: 100%;
 }
 
 .email {
-  float: right;
-  width: 45%;
+  width: 100%;
 }
 
 .telephone {
@@ -175,10 +187,6 @@ textarea:focus {
 
 .subject {
   width: 100%;
-}
-
-.message {
-  float: none;
 }
 
 select {
