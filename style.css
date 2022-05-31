@@ -256,6 +256,7 @@ main {
 footer {
   text-align: center;
   background-color: #d5c17a;
+  padding-block: var(--pad-end);
 }
 
 @media (max-width: 570px) {

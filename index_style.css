@@ -1,17 +1,14 @@
 /*====SPLASH===*/
 
-.splashbillede{
-  display: flex;
-  flex-direction: block;
-  place-items: center;
+.splashbillede {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/splash.webp);
+  background-position: 50%;
 }
 #splash {
-  max-width: 100%;
-  height: 90%;
-  background-image: url(img/splash.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% -50%;
+  width: auto;
+  height: 100%;
 }
 
 section {
@@ -45,7 +42,7 @@ figcaption {
 
 /*=========== FORM =============*/
 
-#contact_form>h2 {
+#contact_form > h2 {
   text-align: center;
   padding-block: 2rem 1rem;
 }
@@ -198,16 +195,19 @@ textarea {
   color: #f2f3eb;
 }
 
-
-
 @media (max-width: 600px) {
-
   .categories {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  #contact_form>h2 {
+  #contact_form > h2 {
     text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  #splash {
+    src: url(img/splash-desktop.webp);
   }
 }
