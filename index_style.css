@@ -206,6 +206,6 @@ textarea {
 
 @media (min-width: 1000px) {
   #splash {
-    src: url(img/splash-desktop.webp);
+    background-image: url(img/splash-desktop.webp);
   }
 }
