@@ -201,7 +201,8 @@ main {
 }
 
 .insta-p {
-  padding-inline-start: 1rem;
+  padding-inline-start: 13px;
+  /* padding-inline-end: 0.1rem; */
 }
 
 .appear {
