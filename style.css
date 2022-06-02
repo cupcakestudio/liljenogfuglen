@@ -80,9 +80,9 @@ main {
   z-index: 50;
 }
 
-.logo > a > img {
-  width: 100px;
-  height: 100px;
+.logo1 {
+  width: 70px;
+  max-height: auto;
 }
 
 .logo2 {
@@ -291,6 +291,16 @@ footer {
   footer {
     text-align: center;
     background-color: #d5c17a;
+  }
+
+  .logo1 {
+    width: 60px;
+    max-height: auto;
+  }
+
+  .logo2 {
+    width: auto;
+    max-height: 50px;
   }
   /* ========= GLOBALT - SLUT ========= */
 }
