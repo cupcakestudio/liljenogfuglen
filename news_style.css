@@ -4,13 +4,12 @@
   flex-direction: row;
   gap: 1rem;
   max-height: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-block: 1rem;
 }
 
 .container-udgivelser .bog {
   width: auto;
-  max-height: 250px;
+  max-height: 265px;
 }
 
 .h1-udgivelser {

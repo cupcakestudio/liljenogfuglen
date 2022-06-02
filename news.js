@@ -7,10 +7,10 @@ right.addEventListener("click", slideR);
 
 function slideL() {
   console.log("left!");
-  cont.scrollBy(-266, 0);
+  cont.scrollBy(-184.033, 0);
 }
 
 function slideR() {
   console.log("Right!");
-  cont.scrollBy(266, 0);
+  cont.scrollBy(184.033, 0);
 }
