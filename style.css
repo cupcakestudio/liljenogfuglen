@@ -85,6 +85,11 @@ main {
   height: 100px;
 }
 
+.logo2 {
+  width: auto;
+  max-height: 70px;
+}
+
 .header-text {
   font-size: 1.5rem;
 }
