@@ -3,7 +3,7 @@
 .splashbillede {
   width: auto;
   height: 100vh;
-  background-image: url(img/splash-desktop.webp);
+  background-image: url(img/splash.webp);
   background-size: cover;
 }
 #splash {
