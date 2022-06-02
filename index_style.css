@@ -42,7 +42,7 @@ figcaption {
 
 /*=========== FORM =============*/
 
-#contact_form > h2 {
+.contact_form > h2 {
   text-align: left;
   padding-block: 2rem 1rem;
   font-family: "Lato", sans-serif;
@@ -199,7 +199,7 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  #contact_form > h2 {
+  .contact_form > h2 {
     text-align: center;
   }
 }

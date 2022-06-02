@@ -45,7 +45,7 @@
     <!-- splashbillede -->
     <div class="splashbiillede"><img src="img/splash.webp" alt="splashbiillede" id="splash" /></div>
     <main>
-      <section class="categories">
+      <article class="categories">
         <figure>
           <a href="assortment.html"> <img src="img/kategori2.webp" /> </a>
           <figcaption>Her kan du se alt hvad vi har</figcaption>
@@ -58,8 +58,8 @@
           <a href="about.html"><img src="img/kategori3.webp" /> </a>
           <figcaption>Vi ved hvad der står i de bøger vi sælger og vi har særligt fokus på at vores kunder har en god oplevelse</figcaption>
         </figure>
-      </section>
-      <section id="contact_form">
+      </article>
+      <section class="contact_form">
         <h2>Har du brug for at kontakte os? Så udfyld formularen forneden.</h2>
         <div id="container">
           <h1 id="h1_contact">Kontakt Liljen &#38; Fuglen</h1>
@@ -78,8 +78,8 @@
             </div>
             <div class="subject">
               <label for="subject"></label>
-              <select placeholder="Emne" name="subject" id="subject_input" required>
-                <option disabled hidden selected>Emne</option>
+              <select name="subject" id="subject_input" required>
+                <option value="" disabled hidden selected>Emne</option>
                 <option>Jeg vil gerne bestille et produkt</option>
                 <option>Jeg vil gerne efterspørge en specifik bog</option>
                 <option>Jeg har udgivet en bog og vil gerne sælge den hos jer</option>
