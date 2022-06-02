@@ -87,9 +87,9 @@
 
 /*=========== FORM =============*/
 
-#contact_form > h2 {
+.contact_form > h2 {
   padding-block: 2rem 1rem;
-  text-align: left;
+  text-align: center;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
