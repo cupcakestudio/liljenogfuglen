@@ -8,11 +8,9 @@ right.addEventListener("click", slideR);
 function slideL() {
   console.log("left!");
   cont.scrollBy(-266, 0);
-  behavior: "smooth";
 }
 
 function slideR() {
   console.log("Right!");
   cont.scrollBy(266, 0);
-  behavior: "smooth";
 }
