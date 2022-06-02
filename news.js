@@ -6,7 +6,7 @@ left.addEventListener("click", slideL);
 right.addEventListener("click", slideR);
 
 function slideL() {
-  console.log("left!");
+  console.log("Left!");
   cont.scrollBy(-184.033, 0);
 }
 
