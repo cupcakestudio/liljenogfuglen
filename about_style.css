@@ -10,7 +10,9 @@ h1 {
   font-size: 40px;
 }
 
-h2 {
+article > h2,
+.cont-1 > h2,
+.cont-2 > h2 {
   padding-block: 1.5rem 1rem;
   text-align: center;
   font-family: "Lato", sans-serif;

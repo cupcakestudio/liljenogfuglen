@@ -4,13 +4,12 @@
   flex-direction: row;
   gap: 1rem;
   max-height: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-inline: 8px;
+  padding-block: 1rem;
 }
 
 .container-udgivelser .bog {
-  max-width: 250px;
+  width: auto;
+  max-height: 265px;
 }
 
 .h1-udgivelser {
@@ -40,7 +39,8 @@
 .pre-btn img,
 .nxt-btn img {
   opacity: 0.3;
-  width: 100%;
+  width: 8px;
+  height: 15px;
   vertical-align: top;
 }
 
@@ -49,7 +49,67 @@
   opacity: 0.6;
 }
 
-@media (max-width: 480px) {
+.anbefaling1,
+.anbefaling2,
+.anbefaling3 {
+  padding-block: 1rem;
+}
+
+.anbefaling1 > img,
+.anbefaling2 > img,
+.anbefaling3 > img {
+  width: auto;
+  max-height: 250px;
+}
+
+@media (min-width: 800px) {
+  .container-anbefalinger {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    gap: 1rem;
+    max-height: 800px;
+  }
+
+  .h2-anbefalinger {
+    padding-block: 1rem;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+
+  .anbefaling1,
+  .anbefaling2,
+  .anbefaling3 {
+    gap: 10px;
+    padding-block: 1rem;
+    padding-inline-end: 2rem;
+  }
+
+  .anbefaling1,
+  .anbefaling3 {
+    display: grid;
+    grid-template-columns: 159px 2fr;
+  }
+
+  .anbefaling2 {
+    display: grid;
+    grid-template-columns: 2fr 159px;
+  }
+
+  .anbefaling1 > img,
+  .anbefaling3 > img {
+    justify-self: center;
+  }
+
+  .anbefaling2 > img {
+    order: 2;
+    justify-self: center;
+  }
+}
+
+/* @media (max-width: 480px) {
   .container-anbefalinger {
     display: flex;
     flex-direction: column;
@@ -82,4 +142,4 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 3px;
-}
+} */

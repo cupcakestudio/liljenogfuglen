@@ -43,7 +43,7 @@ function showInsta() {
 }
 
 //Sætter en timeout på 4 sekunder, så burde boxen komme frem.
-setTimeout(showInsta, 100000);
+setTimeout(showInsta, 10000);
 
 function hideInsta() {
   console.log("hideInsta");
