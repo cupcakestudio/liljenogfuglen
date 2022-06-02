@@ -28,4 +28,15 @@ figcaption {
 
 .image {
   max-width: 100%;
+  min-width: 108.276px;
+}
+
+@media (max-width: 700px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
 }
