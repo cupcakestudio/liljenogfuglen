@@ -49,21 +49,23 @@
   opacity: 0.6;
 }
 
-.container-anbefalinger {
-  display: flex;
-  flex-direction: column;
-  overflow-x: auto;
-  gap: 1rem;
-  max-height: 800px;
-  padding: 1rem;
-}
+@media (max-width: 480px) {
+  .container-anbefalinger {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    gap: 1rem;
+    max-height: 800px;
+    padding: 1rem;
+  }
 
-.anbefaling1,
-.anbefaling2,
-.anbefaling3 {
-  display: flex;
-  flex-direction: row;
-  gap: 1.2rem;
+  .anbefaling1,
+  .anbefaling2,
+  .anbefaling3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
 }
 
 .anbefaling1 img,
