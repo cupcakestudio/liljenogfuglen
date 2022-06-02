@@ -159,7 +159,8 @@ main {
 
 .insta-box {
   border: 2px solid rgba(71, 69, 68, 0.5);
-  padding: 1rem;
+  padding-block: 1rem;
+  padding-inline: 0.5rem 1rem;
   width: 300px;
   height: 100px;
   position: fixed;
@@ -190,12 +191,17 @@ main {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-block-end: 1rem;
 }
 
 .insta-logo,
 .insta-head {
   display: inline;
   text-align: center;
+}
+
+.insta-p {
+  padding-inline-start: 1rem;
 }
 
 .appear {
