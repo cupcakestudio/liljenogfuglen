@@ -39,7 +39,8 @@
 .pre-btn img,
 .nxt-btn img {
   opacity: 0.3;
-  width: 100%;
+  width: 8px;
+  height: 15px;
   vertical-align: top;
 }
 
