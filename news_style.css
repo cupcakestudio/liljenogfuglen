@@ -6,7 +6,6 @@
   max-height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-inline: 8px;
 }
 
 .container-udgivelser .bog {
@@ -49,7 +48,49 @@
   opacity: 0.6;
 }
 
-@media (max-width: 480px) {
+.anbefaling1,
+.anbefaling2,
+.anbefaling3 {
+  padding-block: 1rem;
+}
+
+.anbefaling1 > img,
+.anbefaling2 > img,
+.anbefaling3 > img {
+  width: auto;
+  max-height: 250px;
+}
+
+@media (min-width: 800px) {
+  .container-anbefalinger {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    gap: 1rem;
+    max-height: 800px;
+  }
+
+  .anbefaling1,
+  .anbefaling3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding-block: 1rem;
+  }
+
+  .anbefaling2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding-block: 1rem;
+  }
+
+  .anbefaling2 > img {
+    order: 2;
+  }
+}
+
+/* @media (max-width: 480px) {
   .container-anbefalinger {
     display: flex;
     flex-direction: column;
@@ -82,4 +123,4 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 3px;
-}
+} */
