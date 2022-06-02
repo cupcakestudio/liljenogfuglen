@@ -43,7 +43,7 @@ figcaption {
 /*=========== FORM =============*/
 
 .contact_form > h2 {
-  text-align: left;
+  text-align: center;
   padding-block: 2rem 1rem;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
