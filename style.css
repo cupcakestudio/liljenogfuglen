@@ -70,7 +70,7 @@ main {
 
 .banner {
   background: rgb(213, 193, 122);
-  padding: 0.1em 5%;
+  padding: 0.3rem 5%;
   position: sticky;
   top: 0;
   display: flex;
@@ -120,7 +120,8 @@ main {
   list-style: none;
   gap: 2em;
   border-top: 2px solid #000;
-  padding-block: 1.5rem 1rem;
+  padding-block: 1rem;
+  margin-block-start: 0.5rem;
   display: flex;
   flex: 1 1 100%;
   flex-flow: row;
